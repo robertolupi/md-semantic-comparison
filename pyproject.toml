@@ -1,0 +1,15 @@
+[project]
+name = "md-semantic-comparison"
+version = "0.1.0"
+description = "Semantic Comparison of Markdown files"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "nltk>=3.9.1",
+    "pydantic>=2.11.7",
+    "pydantic-ai>=0.4.7",
+    "pyyaml>=6.0.2",
+    "sentence-transformers>=5.0.0",
+    "streamlit>=1.47.1",
+    "watchdog>=6.0.0",
+]
